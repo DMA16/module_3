@@ -2,7 +2,6 @@ import re
 
 INCORRECT_EMAIL = "INCORRECT_EMAIL"
 EMAILS_MATCH = "EMAILS_MATCH"
-NON_STANDART_SENDER = "NON_STANDART_SENDER"
 default_email = 'university.help@gmail.com'
 
 def email_validation_check(email_sender: str, email_recipient: str):
