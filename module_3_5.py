@@ -6,6 +6,6 @@ def get_multiplied_digits(number: int):
     if len(str_number) > 1:
         return first * get_multiplied_digits(int(str_number[1:]))
     else:
-        return int(str_number[0])
+        return first if first != 0 else 1
 
-print(get_multiplied_digits(205035))
+print(get_multiplied_digits(2050350))
